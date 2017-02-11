@@ -161,6 +161,7 @@ Global XYZ images contain the ground-truth location of each pixel in the mesh. T
 **Normal:**
 Normals are 127.5-centered per-channel surface normal images. For panoramic images, these normals are relative to the global corodinate system. Since the global coordinate system is impossible to determine from a sampled image, the `normal` images in `/data` have their normals defined relative to the direction the camera is facing. The normals axis-color convention is the same one used by NYU RGB-D. Areas where the mesh is missing have pixel color #808080. 
 
+
 **Semantic:**
 Semantic images come in two variants, `semantic` and `semantic_pretty`. They both include information from the point cloud annotations, but only the `semantic` version should be used for learning. The `semantic` images have RGB images which are direct 24-bit base-256 integers which contain an index into `/assets/semantic_labels.json`. Pixels where the data is missing are encoded with the color #0D0D0D which is larger than the `len( labels )`.
 
