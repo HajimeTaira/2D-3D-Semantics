@@ -83,3 +83,4 @@ def read_exr( image_fpath ):
         im[:,:,i] = np.reshape( array.array( 'f', channel ), (h, w) )
     return im
 
+
