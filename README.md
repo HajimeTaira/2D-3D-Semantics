@@ -166,3 +166,6 @@ Normals are 127.5-centered per-channel surface normal images. For panoramic imag
 Semantic images come in two variants, `semantic` and `semantic_pretty`. They both include information from the point cloud annotations, but only the `semantic` version should be used for learning. The `semantic` images have RGB images which are direct 24-bit base-256 integers which contain an index into `/assets/semantic_labels.json`. Pixels where the data is missing are encoded with the color #0D0D0D which is larger than the `len( labels )`.
 
 
+
+
+
