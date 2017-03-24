@@ -12,12 +12,12 @@ This repo provides a set of tools for interacting with the dataset as well as te
 ## Download
 The link will first take you to a license agreement, and then to the data.
 
-###[[ Download the full 2D-3D-S Dataset ]](https://goo.gl/forms/2YSPaO2UKmn5Td5m2)  [[ checksums ]](https://github.com/alexsax/2D-3D-Semantics/wiki/Checksum-Values-for-Data)
+### [[ Download the full 2D-3D-S Dataset ]](https://goo.gl/forms/2YSPaO2UKmn5Td5m2)  [[ checksums ]](https://github.com/alexsax/2D-3D-Semantics/wiki/Checksum-Values-for-Data)
 
 The full dataset is very large at 766G. Therefore, we have split the data by area to accomodate a la carte data selection. The dataset also comes in two flavors: with global_xyz images (766G) and without (110G). Once you click on the download link and accept the license agreement, the variants are accessible from in the `withXYZ` and `noXYZ` folders, respectively. 
 
 
-####License Note: The dataset license is included in the above link. The license in this repository covers only the provided software.
+#### License Note: The dataset license is included in the above link. The license in this repository covers only the provided software.
 
 
 
