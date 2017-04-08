@@ -167,6 +167,3 @@ Semantic images come in two variants, `semantic` and `semantic_pretty`. They bot
 
 
 
-
-
-
