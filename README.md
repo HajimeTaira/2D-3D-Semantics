@@ -173,7 +173,7 @@ This repository provides some basic tools for interacting with the dataset. Pull
 The tools are located in the `assets/` folder and reside in two files. 
 
 **utils.py (Python)**
-This file contains Python tools, and in general it is useful for parsing semantic labels. It provides convenience functions for loading labels, and reading the ground-truth label from an image pixel. 
+This file contains Python tools, and in general it is useful for working with images. It provides convenience functions for loading semantic labels, and reading the ground-truth label from an image pixel. It also provides a toolkit to work with .exr files.
 
 **pcl_utils.h (C++)**
 This file contains C++ tools, and in general it is useful for working with the .obj files and point clouds. It provides convenience functions for loading 6DOF camera poses.
