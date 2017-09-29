@@ -170,7 +170,8 @@ Normals are 127.5-centered per-channel surface normal images. For panoramic imag
 **Semantic:**
 Semantic images come in two variants, `semantic` and `semantic_pretty`. They both include information from the point cloud annotations, but only the `semantic` version should be used for learning. The `semantic` images have RGB images which are direct 24-bit base-256 integers which contain an index into `/assets/semantic_labels.json`. Pixels where the data is missing are encoded with the color #0D0D0D which is larger than the `len( labels )`.
 
-
+### Raw Sensor data:
+The raw data from the Matterport sensors is also included in the `raw` folder. The Matterport camera contains 3 sensors at different pitches, and rotates 60 degrees at a time to complete a 360-degree sweep. We make available both the raw RGB images and also the raw depth images which can be stitched together to make a mesh, or else used independently. 
 
 ## Tools
 This repository provides some basic tools for interacting with the dataset. Pull requests are welcome! 
