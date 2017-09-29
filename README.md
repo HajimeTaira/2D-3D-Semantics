@@ -74,6 +74,10 @@ README.md
     /normal
     /semantic
     /semantic_pretty
+  /raw     # Raw data from Matterport
+    {uuid}_pose_{pitch_level}_{yaw_position}.txt # RT matrix for raw sensor
+    {uuid}_pose_i{pitch_level}_{yaw_position}.jpg # Raw RGB image from sensor
+    {uuid}_pose_d{pitch_level}_{yaw_position}.jpg # Raw depth image form sensor
 /area_2
 /area_3
 /area_4
