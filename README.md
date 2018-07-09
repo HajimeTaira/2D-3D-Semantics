@@ -23,6 +23,7 @@ The full dataset is very large at 766G. Therefore, we have split the data by are
 
 ### Citations
 If you use this dataset please cite:
+```
 @ARTICLE{2017arXiv170201105A,
    author = {{Armeni}, I. and {Sax}, S. and {Zamir}, A.~R. and {Savarese}, S.
 	},
@@ -37,6 +38,8 @@ archivePrefix = "arXiv",
    adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170201105A},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+```
+
 
 ## Dataset Modalities
 Each physical area in the dataset has its own folder in the dataset. All the modalities and metadata for each area are contained in that folder. In addition, `/assets` contains some global metadata and utilities in Python. The utilities are in `/assets/utils.py` and contain functions for reading EXRs and parsing labels.
