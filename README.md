@@ -24,19 +24,11 @@ The full dataset is very large at 766G. Therefore, we have split the data by are
 ### Citations
 If you use this dataset please cite:
 ```
-@ARTICLE{2017arXiv170201105A,
-   author = {{Armeni}, I. and {Sax}, S. and {Zamir}, A.~R. and {Savarese}, S.
-	},
-    title = "{Joint 2D-3D-Semantic Data for Indoor Scene Understanding}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1702.01105},
- primaryClass = "cs.CV",
- keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Robotics},
-     year = 2017,
-    month = feb,
-   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170201105A},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{armeni2017joint,
+  title={Joint 2d-3d-semantic data for indoor scene understanding},
+  author={Armeni, Iro and Sax, Sasha and Zamir, Amir R and Savarese, Silvio},
+  journal={arXiv preprint arXiv:1702.01105},
+  year={2017}
 }
 ```
 
