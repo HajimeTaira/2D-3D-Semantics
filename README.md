@@ -105,8 +105,8 @@ In each *object* struct:
 			--> points: the X,Y,Z coordinates of the 3D points that comprise this object
 			--> RGB_color: the raw RGB color value [0,255] associated with each point.
 			--> global_name: the name of the object, with per area global index**
-			--> Bbox: [Xmin Xmax Ymin Ymax Zmin Zmax] of the object's boudning box
-			--> Voxels: [Xmin Xmax Ymin Ymax Zmin Zmax] for each voxel in a 6x6x6 grid
+			--> Bbox: [Xmin Ymin Zmin Xmax Ymax Zmax] of the object's boudning box
+			--> Voxels: [Xmin Ymin Zmin Xmax Ymax Zmax] for each voxel in a 6x6x6 grid
 			--> Voxel_Occupancy: binary occupancy per voxel (0: empty, 1: contains points)
 			--> Points_per_Voxel: the object points that correspond to each voxel (in XYZ coordinates)
 ```
