@@ -1,0 +1,18 @@
+Your information has been recorded. 
+You can download the dataset per area here (requires a Gmail account): 
+
+> Without the XYZ images (~ 240GB in total): 
+   https://console.cloud.google.com/storage/browser/3dsemantics/noXYZ/
+> With the XYZ images (~ 820GB in total)
+  https://console.cloud.google.com/storage/browser/3dsemantics/XYZ/
+
+For any questions or problems contact us at: iarmeni@cs.stanford.edu
+
+tar links for each area: 
+https://storage.cloud.google.com/3dsemantics/XYZ/area_1.tar.gz?_ga=2.28047612.-135368094.1540027680
+https://storage.cloud.google.com/3dsemantics/XYZ/area_2.tar.gz?_ga=2.28047612.-135368094.1540027680
+https://storage.cloud.google.com/3dsemantics/XYZ/area_3.tar.gz?_ga=2.28047612.-135368094.1540027680
+https://storage.cloud.google.com/3dsemantics/XYZ/area_4.tar.gz?_ga=2.28047612.-135368094.1540027680
+https://storage.cloud.google.com/3dsemantics/XYZ/area_5a.tar.gz?_ga=2.28047612.-135368094.1540027680
+https://storage.cloud.google.com/3dsemantics/XYZ/area_5b.tar.gz?_ga=2.28047612.-135368094.1540027680
+https://storage.cloud.google.com/3dsemantics/XYZ/area_6.tar.gz?_ga=2.165409023.-135368094.1540027680
